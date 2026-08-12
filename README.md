@@ -12,8 +12,6 @@
 - Monitor key HR metrics on employees
 - Understand what factors impact attrition
 
-
-
 ## Data Structure
 
 The dataset consists of a single FACT table with **6,709 records** 
@@ -43,10 +41,15 @@ and 5 DIMENSION tables covering Date, EducationLevel, Employee, Rating Level and
 ### Demographics
 - Majority of employees are between 20-29 years old.
 - Currenlty, Atlas Labs employ 2.7% more women than men.
-  Employes who identify as 
+- Employes who identify as: 
 - Non-Binary: make up to 8.5% of total employees
 - White: have the highest average salary
 - Mixed or multiple ethnic groups: have one of the lowest average salaries
+
+### Attrition
+- Attrition Rate is higher when people is required to do Overtime
+- Also, when the company requires them to travel frequently
+- From each department these are the highest roles with attrition: Sales Representative, Data Scientist and Recruiters.
 
 ## Dashboard
 
@@ -63,3 +66,5 @@ and 5 DIMENSION tables covering Date, EducationLevel, Employee, Rating Level and
 ![HR Summary](https://github.com/andrespalazuelos-data/powerbi-portfolio/blob/main/hr-analytics-dashboard/images/Attrition.png)
 
 ---
+
+
